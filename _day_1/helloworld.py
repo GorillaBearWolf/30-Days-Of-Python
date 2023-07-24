@@ -10,15 +10,15 @@ print("")
 print("30 days of python")
 print("")
 
-print(type(10))                         # Int
-print(type(3.1))                        # Float
-print(type(4 - 4j))                     # Complex
-print(type('Matthew'))                  # String
-print(type(True))                       # Boolean
-print(type([10, 3.1, 'A', True]))       # List
-print(type((10, 3.1, 'A', True)))       # Tuple
-print(type({10, 3.1, 'A', True}))       # Set
-print(type({'name':'Matt'}))            # Dictionary
+print(type(10))                         # int
+print(type(3.1))                        # float
+print(type(4 - 4j))                     # complex
+print(type('A'))                        # string
+print(type(True))                       # boolean
+print(type([10, 'A', True]))            # list
+print(type((10, 'A', True)))            # tuple
+print(type({10, 'A', True}))            # set
+print(type({'key1':'A', 'key2':10}))    # dictionary
 print(type(None))                       # NoneType
 
 def euclidean_distance(p1, p2, q1, q2):
