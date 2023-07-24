@@ -23,10 +23,8 @@ print(type({10, 'A', True}))            # set
 print(type({'key1':'A', 'key2':10}))    # dictionary
 print(type(None))                       # NoneType
 
-def euclidean_distance(p1, p2, q1, q2):
-    return ((q1 - p1)**2 + (q2 - p2)**2)**0.5
+def euclidean_distance(p, q):
+    return ((q[0] - p[0])**2 + (q[1] - p[1])**2)**0.5
 
-print(euclidean_distance(1,2,3,4))
-print(euclidean_distance(9,8,7,6))
-print(euclidean_distance(5,1,8,4))
-print(euclidean_distance(10,11,0,0))
+print(euclidean_distance([1,2],[3,4]))      # input as list
+print(euclidean_distance((91,9),(7,71)))    # input as tuple
